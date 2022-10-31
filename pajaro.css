@@ -1,0 +1,84 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+
+.gameMenu{
+    font-family: "anton";
+    font-size: 30px;
+    display: none;
+    justify-content: center;
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+    border: 1px solid black;
+    height: 290px;
+    width: 250px;
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(255, 227, 46);
+    
+}
+p{
+    padding: 10px;
+}
+button{
+    
+    margin-top: 20px;
+    height: 50px;
+    width: 100px;
+    font-family: "anton";
+    border-radius: 10px;
+    border: black solid 2px;
+    background-color: rgb(255, 227, 46);
+}
+button:hover{
+    transition:  1s;
+    background-color: #ffffffad;
+}
+canvas{
+    padding: 0px;
+    border-radius: 50px;
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 10px;
+
+}
+
+body{
+    background-color: rgb(114, 196, 205);
+    
+}
+.puntos{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 40px;
+}
+.nombre{
+    margin-bottom: 20px;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 40px;
+}
+/* .botones{
+    margin-top: ;
+} */
